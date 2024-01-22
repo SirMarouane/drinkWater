@@ -15,7 +15,6 @@ littleBottle.forEach(element => {
         element.style.background = "#3ad0f9"
         element.style.transition = "0.3s"
         
-
         if (element.querySelector("p").innerText == "250 ml") {
             
             total += 12.5 
@@ -93,3 +92,4 @@ function move(quantite) {
     }
   }
 }
+
